@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T09:16:45.819Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="b72UoKoSvKscKQHIwR1P" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T09:30:39.058Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="XZ6MMw6P-Lh1HsjnQB3b" version="18.0.2" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1374" dy="1599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -341,7 +341,7 @@
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="--r60nrAQB_nMp80lIBW-110" value="device" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="690" width="260" height="1014" as="geometry" />
+          <mxGeometry x="550" y="810" width="260" height="1014" as="geometry" />
         </mxCell>
         <mxCell id="--r60nrAQB_nMp80lIBW-111" value="struct device		*parent;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="--r60nrAQB_nMp80lIBW-110">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -456,6 +456,45 @@
         </mxCell>
         <mxCell id="--r60nrAQB_nMp80lIBW-148" value="bool			offline:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="--r60nrAQB_nMp80lIBW-110">
           <mxGeometry y="988" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="--r60nrAQB_nMp80lIBW-149" value="platform_device" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="924" width="240" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="--r60nrAQB_nMp80lIBW-150" value="const char	*name;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="--r60nrAQB_nMp80lIBW-149">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="--r60nrAQB_nMp80lIBW-151" value="int		id;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="--r60nrAQB_nMp80lIBW-149">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="--r60nrAQB_nMp80lIBW-152" value="bool		id_auto;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="--r60nrAQB_nMp80lIBW-149">
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="--r60nrAQB_nMp80lIBW-153" value="struct device	dev;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="--r60nrAQB_nMp80lIBW-149">
+          <mxGeometry y="104" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="--r60nrAQB_nMp80lIBW-154" value="u32		num_resources;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="--r60nrAQB_nMp80lIBW-149">
+          <mxGeometry y="130" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="--r60nrAQB_nMp80lIBW-155" value="struct resource	*resource;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="--r60nrAQB_nMp80lIBW-149">
+          <mxGeometry y="156" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="--r60nrAQB_nMp80lIBW-156" value="const struct platform_device_id	*id_entry;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="--r60nrAQB_nMp80lIBW-149">
+          <mxGeometry y="182" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="--r60nrAQB_nMp80lIBW-157" value="char *driver_override; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="--r60nrAQB_nMp80lIBW-149">
+          <mxGeometry y="208" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="--r60nrAQB_nMp80lIBW-158" value="struct mfd_cell *mfd_cell;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="--r60nrAQB_nMp80lIBW-149">
+          <mxGeometry y="234" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="--r60nrAQB_nMp80lIBW-159" value="struct pdev_archdata	archdata;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="--r60nrAQB_nMp80lIBW-149">
+          <mxGeometry y="260" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="--r60nrAQB_nMp80lIBW-163" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="1040" as="sourcePoint" />
+            <mxPoint x="550" y="1040" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
