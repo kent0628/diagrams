@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T10:42:35.187Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="lc_wSiR3uU9K9IeiSpbk" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-11T10:45:14.830Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="aKvtfl0IcGASi70La7kE" version="18.0.2" type="github" pages="2">
   <diagram name="platform" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1616" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -619,7 +619,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9TOvlhWgLRPlZjVrz9F_-21" value="spi_master" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="622" width="300" height="1118" as="geometry" />
+          <mxGeometry x="620" y="622" width="300" height="1352" as="geometry" />
         </mxCell>
         <mxCell id="9TOvlhWgLRPlZjVrz9F_-22" value="struct device	dev;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9TOvlhWgLRPlZjVrz9F_-21">
           <mxGeometry y="26" width="300" height="26" as="geometry" />
@@ -746,6 +746,33 @@
         </mxCell>
         <mxCell id="9TOvlhWgLRPlZjVrz9F_-63" value="int (*transfer_one)(struct spi_master *master, struct spi_device *spi, struct spi_transfer *transfer);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9TOvlhWgLRPlZjVrz9F_-21">
           <mxGeometry y="1092" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9TOvlhWgLRPlZjVrz9F_-64" value="	void (*handle_err)(struct spi_master *master, struct spi_message *message);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9TOvlhWgLRPlZjVrz9F_-21">
+          <mxGeometry y="1118" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9TOvlhWgLRPlZjVrz9F_-65" value="int			*cs_gpios;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9TOvlhWgLRPlZjVrz9F_-21">
+          <mxGeometry y="1144" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9TOvlhWgLRPlZjVrz9F_-66" value="int (*transfer_one)(struct spi_master *master, struct spi_device *spi, struct spi_transfer *transfer);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9TOvlhWgLRPlZjVrz9F_-21">
+          <mxGeometry y="1170" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9TOvlhWgLRPlZjVrz9F_-67" value="struct spi_statistics	statistics;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9TOvlhWgLRPlZjVrz9F_-21">
+          <mxGeometry y="1196" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9TOvlhWgLRPlZjVrz9F_-68" value="struct dma_chan		*dma_tx;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9TOvlhWgLRPlZjVrz9F_-21">
+          <mxGeometry y="1222" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9TOvlhWgLRPlZjVrz9F_-69" value="struct dma_chan		*dma_rx;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9TOvlhWgLRPlZjVrz9F_-21">
+          <mxGeometry y="1248" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9TOvlhWgLRPlZjVrz9F_-70" value="void			*dummy_rx;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9TOvlhWgLRPlZjVrz9F_-21">
+          <mxGeometry y="1274" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9TOvlhWgLRPlZjVrz9F_-71" value="void			*dummy_tx;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9TOvlhWgLRPlZjVrz9F_-21">
+          <mxGeometry y="1300" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9TOvlhWgLRPlZjVrz9F_-72" value="int (*fw_translate_cs)(struct spi_master *master, unsigned cs);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9TOvlhWgLRPlZjVrz9F_-21">
+          <mxGeometry y="1326" width="300" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
