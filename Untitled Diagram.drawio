@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T11:05:05.036Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="Afgfmih93sFxoJmklR8F" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-11T11:06:20.080Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="g8xBMhUZMVxckT6cY70K" version="18.0.2" type="github" pages="2">
   <diagram name="platform" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1616" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -821,6 +821,15 @@
         </mxCell>
         <mxCell id="9TOvlhWgLRPlZjVrz9F_-87" value="u32			speed_hz;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9TOvlhWgLRPlZjVrz9F_-78">
           <mxGeometry y="234" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9TOvlhWgLRPlZjVrz9F_-88" value="spi" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=-0.005;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9TOvlhWgLRPlZjVrz9F_-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="470" y="1070" as="sourcePoint" />
+            <mxPoint x="630" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TOvlhWgLRPlZjVrz9F_-89" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="9TOvlhWgLRPlZjVrz9F_-88">
+          <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
