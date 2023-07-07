@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T08:30:18.002Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4T5MAA_SeDF0k_nF6dPU" version="21.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-07T08:31:10.565Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="RHPVnq5ulPdYOQeHnzmz" version="21.6.1" type="github" pages="2">
   <diagram name="spi结构体关系" id="tcLax6x1Hgo2NT0Mx165">
     <mxGraphModel dx="2144" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -474,11 +474,11 @@
         <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jiS0Q0Z3GJ2UXFFMdQb8-17" target="jiS0Q0Z3GJ2UXFFMdQb8-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jiS0Q0Z3GJ2UXFFMdQb8-17" target="jiS0Q0Z3GJ2UXFFMdQb8-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-17" value="spi_async_locked发起异步请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="240" width="250" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jiS0Q0Z3GJ2UXFFMdQb8-19" target="jiS0Q0Z3GJ2UXFFMdQb8-21">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-19" value="wait_for_completion等待异步完成返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="350" width="250" height="60" as="geometry" />
