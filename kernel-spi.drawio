@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T07:51:34.084Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="sld0Xw660iEIKlAEEDZd" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T07:52:38.852Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="IZPmDvJUSQcGbwAbhuAc" version="21.6.1" type="github" pages="2">
   <diagram name="spi结构体关系" id="tcLax6x1Hgo2NT0Mx165">
-    <mxGraphModel dx="2377" dy="1323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2144" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -414,6 +414,35 @@
         </mxCell>
         <mxCell id="FLf4NnS4WTuzIgZpGbhp-131" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="FLf4NnS4WTuzIgZpGbhp-130">
           <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KxvLqGaylcnmqPM8gUYs" name="spi写读流程">
+    <mxGraphModel dx="1072" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jiS0Q0Z3GJ2UXFFMdQb8-2" target="jiS0Q0Z3GJ2UXFFMdQb8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-2" value="spi写读流程图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jiS0Q0Z3GJ2UXFFMdQb8-4" target="jiS0Q0Z3GJ2UXFFMdQb8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-4" value="spi_message_init初始化spi_message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="240" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jiS0Q0Z3GJ2UXFFMdQb8-6" target="jiS0Q0Z3GJ2UXFFMdQb8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-6" value="写write和read的spi_transfer追加到spi_message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="350" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-7" value="spi_sync发起一次交互" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="460" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
