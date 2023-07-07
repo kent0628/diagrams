@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T07:52:38.852Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="IZPmDvJUSQcGbwAbhuAc" version="21.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-07T08:09:14.377Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uvMwFYEzLDxHE3AqM1uy" version="21.6.1" type="github" pages="2">
   <diagram name="spi结构体关系" id="tcLax6x1Hgo2NT0Mx165">
     <mxGraphModel dx="2144" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -441,8 +441,20 @@
         <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-6" value="写write和read的spi_transfer追加到spi_message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="255" y="350" width="250" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jiS0Q0Z3GJ2UXFFMdQb8-7" target="jiS0Q0Z3GJ2UXFFMdQb8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-7" value="spi_sync发起一次交互" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="255" y="460" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jiS0Q0Z3GJ2UXFFMdQb8-8" target="jiS0Q0Z3GJ2UXFFMdQb8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-8" value="__spi_sync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="140" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jiS0Q0Z3GJ2UXFFMdQb8-11" value="__spi_validate检验message、spi设备、spi控制器和transfers赋值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="240" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
