@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T08:01:25.726Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="j5ix0CiWCJKmMWjpZhge" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T08:21:47.366Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="kWoxD5wQo4fWA2fWjk1A" version="21.6.3" type="github">
   <diagram name="第 1 页" id="lXds7RLkqQ-f8YmvRl1O">
     <mxGraphModel dx="2190" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -151,8 +151,14 @@
         <mxCell id="al4bxPR0ltXzujJzHCmy-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-46" target="al4bxPR0ltXzujJzHCmy-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="al4bxPR0ltXzujJzHCmy-46" value="转换协议" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="385" width="120" height="60" as="geometry" />
+        <mxCell id="al4bxPR0ltXzujJzHCmy-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-46" target="al4bxPR0ltXzujJzHCmy-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="al4bxPR0ltXzujJzHCmy-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-46" target="al4bxPR0ltXzujJzHCmy-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="al4bxPR0ltXzujJzHCmy-46" value="转换协议+中转" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="385" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-48" value="lora队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="470" width="120" height="60" as="geometry" />
