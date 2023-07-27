@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T08:35:02.700Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="01GNvxZtZyC_bCUyoUnH" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T08:37:07.558Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="W5MlcaUcsvr3TdpxfhyH" version="21.6.3" type="github">
   <diagram name="第 1 页" id="lXds7RLkqQ-f8YmvRl1O">
-    <mxGraphModel dx="2190" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2612" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,10 +15,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-1" value="web接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="-30" y="285" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-2" value="bslora-config.json" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="-30" y="395" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-5" target="al4bxPR0ltXzujJzHCmy-2">
           <mxGeometry relative="1" as="geometry" />
@@ -31,19 +31,19 @@
         <mxCell id="al4bxPR0ltXzujJzHCmy-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-5" target="al4bxPR0ltXzujJzHCmy-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-80" y="480" />
-              <mxPoint x="-80" y="461" />
+              <mxPoint x="-470" y="685" />
+              <mxPoint x="-470" y="666" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-5" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="140" y="300" width="560" height="250" as="geometry" />
+          <mxGeometry x="-250" y="505" width="560" height="250" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-8" target="al4bxPR0ltXzujJzHCmy-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="610" y="540" />
-              <mxPoint x="610" y="540" />
+              <mxPoint x="220" y="745" />
+              <mxPoint x="220" y="745" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -56,13 +56,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-8" value="lora-hal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="675" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-9" target="al4bxPR0ltXzujJzHCmy-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="660" y="590" />
-              <mxPoint x="660" y="590" />
+              <mxPoint x="270" y="795" />
+              <mxPoint x="270" y="795" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -72,18 +72,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-9" value="lora dtu" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="825" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-17" target="al4bxPR0ltXzujJzHCmy-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-17" value="udp clinet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="-240" y="675" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-18" target="al4bxPR0ltXzujJzHCmy-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-80" y="363" />
+              <mxPoint x="-470" y="568" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -93,18 +93,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-18" value="边缘网关/服务器" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="385" width="120" height="80" as="geometry" />
+          <mxGeometry x="-530" y="590" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-27" target="al4bxPR0ltXzujJzHCmy-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-27" value="下行缓冲区" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="-100" y="675" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-31" target="al4bxPR0ltXzujJzHCmy-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="210" y="220" />
+              <mxPoint x="-180" y="425" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -116,7 +116,7 @@
         <mxCell id="al4bxPR0ltXzujJzHCmy-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-31" target="al4bxPR0ltXzujJzHCmy-41">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="190" y="220" />
+              <mxPoint x="-200" y="425" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -126,54 +126,76 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-31" target="al4bxPR0ltXzujJzHCmy-46">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-70" y="570" />
+              <mxPoint x="-70" y="570" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-31" value="管理设备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="-240" y="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-37" target="al4bxPR0ltXzujJzHCmy-46">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="530" y="350" />
-              <mxPoint x="530" y="415" />
+              <mxPoint x="120" y="555" />
+              <mxPoint x="120" y="555" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-37" value="上行缓冲区" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-40" value="边缘数据下行类型：&lt;br&gt;1、LoRa数据下行&lt;br&gt;2、管理设备" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="10" width="130" height="60" as="geometry" />
+          <mxGeometry x="220" y="215" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-41" value="基本设备&lt;br&gt;管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="-420" y="395" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-46" target="al4bxPR0ltXzujJzHCmy-31">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-70" y="540" />
+              <mxPoint x="-70" y="540" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-46" target="al4bxPR0ltXzujJzHCmy-17">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="555" />
+              <mxPoint x="-90" y="630" />
+              <mxPoint x="-180" y="630" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-46" target="al4bxPR0ltXzujJzHCmy-48">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="555" />
+              <mxPoint x="30" y="630" />
+              <mxPoint x="100" y="630" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-46" value="转换协议+中转" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="385" width="110" height="60" as="geometry" />
+          <mxGeometry x="-25" y="525" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-48" value="lora队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="675" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="499.38" as="sourcePoint" />
-            <mxPoint x="570" y="499.38" as="targetPoint" />
+            <mxPoint x="160" y="704.38" as="sourcePoint" />
+            <mxPoint x="180" y="704.38" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-64" value="lora上行数据类型：&lt;br&gt;1、DTU心跳数据&lt;br&gt;2、需要上报给边缘网关&lt;br&gt;3、不需要上报边缘网关" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="100" width="150" height="70" as="geometry" />
+          <mxGeometry x="220" y="305" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-65" value="线程1：udp客户端&lt;br&gt;线程2：管理设备&lt;br&gt;线程3：LoRa下行&lt;br&gt;线程4：LoRa上行&lt;br&gt;线程5：协议转换+任务中转" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="190" width="170" height="90" as="geometry" />
+          <mxGeometry x="220" y="395" width="170" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
