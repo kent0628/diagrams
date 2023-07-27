@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T08:29:14.934Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Sq7kx-Y7Tx9pKLSKtC_6" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T08:35:02.700Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="01GNvxZtZyC_bCUyoUnH" version="21.6.3" type="github">
   <diagram name="第 1 页" id="lXds7RLkqQ-f8YmvRl1O">
-    <mxGraphModel dx="2499" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2190" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,7 +143,7 @@
           <mxGeometry x="570" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-40" value="边缘数据下行类型：&lt;br&gt;1、LoRa数据下行&lt;br&gt;2、管理设备" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="695" y="83" width="130" height="60" as="geometry" />
+          <mxGeometry x="610" y="10" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-41" value="基本设备&lt;br&gt;管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="190" width="120" height="60" as="geometry" />
@@ -170,7 +170,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-64" value="lora上行数据类型：&lt;br&gt;1、DTU心跳数据&lt;br&gt;2、需要上报给边缘网关&lt;br&gt;3、不需要上报边缘网关" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="695" y="160" width="150" height="70" as="geometry" />
+          <mxGeometry x="610" y="100" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="al4bxPR0ltXzujJzHCmy-65" value="线程1：udp客户端&lt;br&gt;线程2：管理设备&lt;br&gt;线程3：LoRa下行&lt;br&gt;线程4：LoRa上行&lt;br&gt;线程5：协议转换+任务中转" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="190" width="170" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
