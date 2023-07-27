@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T07:26:45.442Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Xq_DGbw2G8nLMAFWAmDz" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T07:28:19.557Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="K1kBL5itXFjOgguEXN3z" version="21.6.3" type="github">
   <diagram name="第 1 页" id="lXds7RLkqQ-f8YmvRl1O">
-    <mxGraphModel dx="2637" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1349" dy="215" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,6 +79,11 @@
             <Array as="points">
               <mxPoint x="-80" y="363" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="al4bxPR0ltXzujJzHCmy-26" value="tcp/udp/MQTT/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;modbus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="al4bxPR0ltXzujJzHCmy-22">
+          <mxGeometry x="-0.0256" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-18" value="边缘网关/服务器" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
