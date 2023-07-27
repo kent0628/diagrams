@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T07:36:15.407Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="vj0VYH1PKStt3G3mx0WD" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T07:38:01.808Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ZA_MCb3nBeiQxcGX8-41" version="21.6.3" type="github">
   <diagram name="第 1 页" id="lXds7RLkqQ-f8YmvRl1O">
     <mxGraphModel dx="1871" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -74,7 +74,7 @@
         <mxCell id="al4bxPR0ltXzujJzHCmy-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-17" target="al4bxPR0ltXzujJzHCmy-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="al4bxPR0ltXzujJzHCmy-30" value="lora 下行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="al4bxPR0ltXzujJzHCmy-29">
+        <mxCell id="al4bxPR0ltXzujJzHCmy-30" value="lora 下行类型" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="al4bxPR0ltXzujJzHCmy-29">
           <mxGeometry x="-0.4296" y="-1" relative="1" as="geometry">
             <mxPoint x="14" y="-1" as="offset" />
           </mxGeometry>
@@ -82,7 +82,7 @@
         <mxCell id="al4bxPR0ltXzujJzHCmy-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="al4bxPR0ltXzujJzHCmy-17" target="al4bxPR0ltXzujJzHCmy-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="al4bxPR0ltXzujJzHCmy-33" value="修改配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="al4bxPR0ltXzujJzHCmy-32">
+        <mxCell id="al4bxPR0ltXzujJzHCmy-33" value="修改配置类型" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="al4bxPR0ltXzujJzHCmy-32">
           <mxGeometry x="-0.3958" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -125,6 +125,9 @@
         </mxCell>
         <mxCell id="al4bxPR0ltXzujJzHCmy-31" value="配置文件服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="al4bxPR0ltXzujJzHCmy-37" value="上行队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
